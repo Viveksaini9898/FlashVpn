@@ -126,7 +126,7 @@ public class ServerActivity extends Activity {
             iv_server_refresh.setBackground(getDrawable(R.drawable.ic_servers_process));
             RequestQueue queue = Volley.newRequestQueue(ServerActivity.this);
             queue.getCache().clear();
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/gayanvoice/gayankuruppu.github.io/source-json/appdetails.json",
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Viveksaini9898/FlashVpn/master/app/appdetails.json",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String Response) {
@@ -163,7 +163,7 @@ public class ServerActivity extends Activity {
             iv_server_refresh.setBackground(getDrawable(R.drawable.ic_servers_process));
             RequestQueue queue = Volley.newRequestQueue(ServerActivity.this);
             queue.getCache().clear();
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/gayanvoice/gayankuruppu.github.io/source-json/filedetails.json",
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Viveksaini9898/FlashVpn/master/app/filedetails.json",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String Response) {
