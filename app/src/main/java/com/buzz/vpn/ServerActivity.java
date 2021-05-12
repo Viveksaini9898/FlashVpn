@@ -385,6 +385,9 @@ public class ServerActivity extends Activity {
                     case "italy":
                         iv_flag.setImageResource(R.drawable.ic_flag_italy);
                         break;
+                    case "india":
+                        iv_flag.setImageResource(R.drawable.ic_flag_india);
+                        break;
                     default:
                         iv_flag.setImageResource(R.drawable.ic_flag_unknown_mali);
                         break;
