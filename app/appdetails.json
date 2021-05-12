@@ -17,7 +17,7 @@
   ],
   "free":[
    {"id":0, "file":0, "city":"India","country":"India","image":"india","ip":"189.48.52.139","active":"true","signal":"a"},
-    {"id":1, "file":0, "city":"Bangkok","country":"United States","image":"thailand","ip":"159.192.246.168","active":"true","signal":"b"},
+    {"id":1, "file":0, "city":"Japan","country":"Japan","image":"japan","ip":"219.100.37.236","active":"true","signal":"b"},
     {"id":2, "file":0, "city":"London","country":"United States","image":"unitedkingdom","ip":"205.185.119.100","active":"true","signal":"c"},
     {"id":3, "file":0, "city":"Sydney","country":"United States","image":"australia","ip":"205.185.119.100","active":"true","signal":"c"},
     {"id":4, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"a"},
