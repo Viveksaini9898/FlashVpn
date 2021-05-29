@@ -229,7 +229,7 @@ public class VpnStatus {
         String[] connected = {"CONNECTED"};
         String[] notconnected = {"DISCONNECTED", "EXITING"};
         for (String x : noreplyet)
-            if (state.equals(x)) return ConnectionStatus.LEVEL_CONNECTING_NO_SERVER_REPLY_YET;
+            if (state.equals(x)) return ConnectionStatus. LEVEL_CONNECTING_NO_SERVER_REPLY_YET;
         for (String x : reply)
             if (state.equals(x)) return ConnectionStatus.LEVEL_CONNECTING_SERVER_REPLIED;
         for (String x : connected)
